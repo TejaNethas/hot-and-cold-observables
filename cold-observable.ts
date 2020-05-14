@@ -1,7 +1,7 @@
 import * as Rx from "rxjs";
 
 const observable = Rx.Observable.create((observer) => {
-    observer.next(Math.random());
+    observer.next(Math.random()); //data producer inside of observable
 });
 
 // subscription 1
